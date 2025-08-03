@@ -10,4 +10,5 @@ This is a MERN Blog App with markdown support and AI powered blog post generator
 * Gemini integration that can generate full blog posts just by entering a title
 * Used stack MongoDB, Node.js, React.js and Express.js
 * Features like tag filtering, search, view count and comments
+* login and signup support using jwt
 * An admin dashboard to manage the blog posts

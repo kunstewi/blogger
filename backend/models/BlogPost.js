@@ -8,7 +8,7 @@ const BlogPostSchema = new mongoose.Schema(
     coverImageUrl: { type: String, default: null },
     tags: { type: String },
     author: {
-      type: Mongoose.Schema.Types.ObjectId,
+      type: mongoose.Schema.Types.ObjectId,
       ref: "User",
       required: true,
     },

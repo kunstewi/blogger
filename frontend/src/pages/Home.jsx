@@ -45,12 +45,12 @@ const Home = () => {
     return (
         <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
             {/* Hero Section */}
-            <div className="bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 text-white py-20">
+            <div className="bg-blue-600 dark:bg-blue-700 text-white py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h1 className="text-5xl md:text-6xl font-bold mb-6">
                         Welcome to Blogger
                     </h1>
-                    <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
+                    <p className="text-xl md:text-2xl text-blue-50 dark:text-blue-100 mb-8 max-w-3xl mx-auto">
                         Discover amazing stories, insights, and ideas from writers around the world
                     </p>
 

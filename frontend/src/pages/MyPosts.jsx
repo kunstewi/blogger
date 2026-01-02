@@ -101,8 +101,8 @@ const MyPosts = () => {
                             key={tab}
                             onClick={() => setFilter(tab)}
                             className={`px-4 py-2 font-medium capitalize transition-colors ${filter === tab
-                                    ? 'text-blue-600 dark:text-blue-400 border-b-2 border-blue-600'
-                                    : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
+                                ? 'text-blue-600 dark:text-blue-400 border-b-2 border-blue-600'
+                                : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
                                 }`}
                         >
                             {tab} ({posts.filter((p) => {
@@ -165,7 +165,7 @@ const MyPosts = () => {
                                                 </span>
                                             )}
                                             {post.generatedByAI && (
-                                                <span className="px-2 py-1 text-xs font-medium bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 rounded-full">
+                                                <span className="px-2 py-1 text-xs font-medium bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full">
                                                     AI Assisted
                                                 </span>
                                             )}

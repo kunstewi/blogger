@@ -74,7 +74,7 @@ const Dashboard = () => {
                         <p className="text-4xl font-bold">{stats?.totalPosts || 0}</p>
                     </div>
 
-                    <div className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl shadow-lg p-6 text-white">
+                    <div className="bg-blue-600 dark:bg-blue-700 rounded-xl shadow-lg p-6 text-white">
                         <div className="flex items-center justify-between mb-2">
                             <h3 className="text-lg font-semibold opacity-90">Total Views</h3>
                             <svg className="w-8 h-8 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -136,7 +136,7 @@ const Dashboard = () => {
                                         className="block p-4 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors"
                                     >
                                         <div className="flex items-start gap-4">
-                                            <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center text-white font-bold">
+                                            <div className="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold">
                                                 {index + 1}
                                             </div>
                                             <div className="flex-1 min-w-0">

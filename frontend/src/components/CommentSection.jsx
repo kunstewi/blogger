@@ -119,7 +119,7 @@ const CommentSection = ({ postId }) => {
                                 className="w-8 h-8 rounded-full object-cover"
                             />
                         ) : (
-                            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-white text-sm font-semibold">
+                            <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white text-sm font-semibold">
                                 {comment.author?.name?.charAt(0).toUpperCase()}
                             </div>
                         )}

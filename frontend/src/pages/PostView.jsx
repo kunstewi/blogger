@@ -125,7 +125,7 @@ const PostView = () => {
                                     className="w-12 h-12 rounded-full object-cover"
                                 />
                             ) : (
-                                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-white font-semibold text-lg">
+                                <div className="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-semibold text-lg">
                                     {post.author?.name?.charAt(0).toUpperCase()}
                                 </div>
                             )}
@@ -136,7 +136,7 @@ const PostView = () => {
                                 <p className="text-sm text-gray-500 dark:text-gray-400">
                                     {formatDate(post.createdAt)}
                                     {post.generatedByAI && (
-                                        <span className="ml-2 text-purple-600 dark:text-purple-400">
+                                        <span className="ml-2 text-blue-600 dark:text-blue-400">
                                             • AI Assisted
                                         </span>
                                     )}
@@ -158,8 +158,8 @@ const PostView = () => {
                                     onClick={handleLike}
                                     disabled={liked}
                                     className={`flex items-center space-x-1 transition-colors ${liked
-                                            ? 'text-red-500'
-                                            : 'hover:text-red-500'
+                                        ? 'text-red-500'
+                                        : 'hover:text-red-500'
                                         }`}
                                 >
                                     <svg

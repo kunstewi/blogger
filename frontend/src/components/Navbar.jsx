@@ -20,10 +20,10 @@ const Navbar = () => {
                 <div className="flex justify-between items-center h-16">
                     {/* Logo */}
                     <Link to="/" className="flex items-center space-x-2">
-                        <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                        <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
                             <span className="text-white font-bold text-xl">B</span>
                         </div>
-                        <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                        <span className="text-xl font-bold text-blue-600 dark:text-blue-400">
                             Blogger
                         </span>
                     </Link>
@@ -67,7 +67,7 @@ const Navbar = () => {
                                                 className="w-8 h-8 rounded-full object-cover"
                                             />
                                         ) : (
-                                            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-white font-semibold">
+                                            <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white font-semibold">
                                                 {user?.name?.charAt(0).toUpperCase()}
                                             </div>
                                         )}

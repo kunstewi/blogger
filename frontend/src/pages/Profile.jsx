@@ -124,8 +124,8 @@ const Profile = () => {
                             key={tab}
                             onClick={() => setActiveTab(tab)}
                             className={`px-4 py-2 font-medium capitalize transition-colors ${activeTab === tab
-                                    ? 'text-blue-600 dark:text-blue-400 border-b-2 border-blue-600'
-                                    : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
+                                ? 'text-blue-600 dark:text-blue-400 border-b-2 border-blue-600'
+                                : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
                                 }`}
                         >
                             {tab}
@@ -149,7 +149,7 @@ const Profile = () => {
                                         className="w-24 h-24 rounded-full object-cover"
                                     />
                                 ) : (
-                                    <div className="w-24 h-24 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-white text-3xl font-semibold">
+                                    <div className="w-24 h-24 rounded-full bg-blue-600 flex items-center justify-center text-white text-3xl font-semibold">
                                         {user?.name?.charAt(0).toUpperCase()}
                                     </div>
                                 )}
